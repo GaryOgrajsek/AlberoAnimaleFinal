@@ -100,11 +100,6 @@ void Gioco::ControlloAnimale(int risposta, NodoAlbero<string>* T) {
 	cout << "Termine del gioco"<<endl<<endl;
 }
 
-/*Avvia la funzione dell'albero converti per avere l'albero con le parentesi*/
-string Gioco::Converti() {
-	return AlberoGioco.Converti();
-}
-
 /*Salva in un file la conversione dell'albero con le parentesi*/
 void Gioco::Salva() {
 	ofstream file("Albero.txt");
