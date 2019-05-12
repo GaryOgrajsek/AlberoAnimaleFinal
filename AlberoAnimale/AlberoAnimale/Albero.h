@@ -3,8 +3,8 @@
 #include "NodoAlbero.cpp"
 #include<string>
 using namespace std;
-//postorder F D E B G C A  INORDER D F B E A G C
 template <class tipo>
+
 class Albero{
 	friend bool AlberoUguale(Albero<tipo>, Albero<tipo>);
 private:
