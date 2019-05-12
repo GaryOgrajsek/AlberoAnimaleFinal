@@ -19,7 +19,6 @@ public:
 	void RichiestaAnimale(NodoAlbero<string>*);
 	void ControlloAnimale(int, NodoAlbero<string>*);
 	void ModificaAnimale(string, NodoAlbero<string>*);
-	string Converti();
 	void Salva();
 	NodoAlbero<string>* Carica();
 	NodoAlbero<string>* CostruisciAlbero(string);
