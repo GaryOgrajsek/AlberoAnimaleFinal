@@ -1,5 +1,6 @@
 #pragma once
 template<class tipo>
+
 class NodoAlbero {
 private:
 	tipo info;
